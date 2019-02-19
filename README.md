@@ -5,7 +5,7 @@ Feel free to feedback or Pull Request.
 - [Java](Android-java.md)
 - [Kotlin](Android-kotlin.md)
 - [Resource](Android-resource.md)
-- [Gradle](Gradle.md)
+- [Gradle](Android-gradle.md)
 - [Architecture(MVC)](Android-mvc.md)
 - [Architecture(MVP)](Android-mvp.md)
 - [Architecture(MVVM)](Android-mvvm.md)
