@@ -1,21 +1,20 @@
 # Java
 
-아래 정의되어 있는 가이드외에는 [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)를 따른다.
+This guide follows [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
 
 ## Parameter/Argument
-### Parameter 순서
-- Context류의 parameter를 가장 앞에 위치한다.
-(Context, Activity, Fragment, View등)
-- Callback류의 parameter를 가장 뒤에 위치한다.
-(XXXListener, XXXCallback, XXXSubject등)
+### Parameter Order
+- Context must be placed as the first parameter. (Activity > Fragment > View)
+- Callback must be placed as the last parameter. (XXXListener, XXXCallback, XXXSubject, etc)
+
 ```java
-public Car getCar(Context context, int hashId);
-public void loadCar(Context context, int hashId, CarListener listener);
+public Item getItem(Context context, int hashId);
+public void loadItem(Context context, int hashId, ItemListener listener);
 ```
 
 ### Key
 
-| Prefix | 설명 |
+| Prefix | Description |
 | ------------- | ------------- |
 | `EXTRA_` | Intent |
 | `PREF_` | SharedPreferences |
