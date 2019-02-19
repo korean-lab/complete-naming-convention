@@ -5,7 +5,9 @@ Feel free to feedback or Pull Request.
 - [Android Kotlin](Android-kotlin.md)
 - [Android Resource](Android-resource.md)
 - [Android Gradle](Gradle.md)
-- [Android Architecture](Android-architecture.md)
+- [Android Architecture(MVC)](Android-mvc.md)
+- [Android Architecture(MVP)](Android-mvp.md)
+- [Android Architecture(MVVM)](Android-mvvm.md)
 - [Node.js](Nodejs.md)
 
 # References
