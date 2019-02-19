@@ -17,6 +17,7 @@ implementation 'de.hdodenhof:circleimageview:3.0.0'
 ```
 
 - DO NOT USE + for the version.
+
 DO:
 ```java
 implementation 'com.github.ittianyu:BottomNavigationViewEx:2.0.2'
